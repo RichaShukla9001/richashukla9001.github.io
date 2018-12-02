@@ -1,0 +1,164 @@
+ *{
+  border-collapse:collapse;
+  float:left;
+
+  }
+  form{
+    border: 5px dotted green;
+    margin: 10px 250px 0px;  	
+  }
+  #main{
+    border: 2px solid blue;
+    margin:0px;
+  }
+  #row1{
+  width: 1261px;
+    border: 10px solid green;
+ /*    padding: 24px;
+
+    margin: 15px;
+  */}
+  
+  #row2{
+  width: 1261px;
+  height:500px;
+    border: 10px solid red;
+    /*padding: 4px;
+    margin: 15px;
+  */
+  }
+  
+  #col1{
+    width: 200px;
+    height:490px;
+    border: 5px dotted purple;
+   /*padding: 5px;
+    margin: 5px;
+ */
+ color:#A41313;
+ overflow:visible;
+    }
+ /*
+#F2F3F4;
+ 
+ */
+/*  
+  #col2{
+ background-color:yellow; 
+    width: 850px;
+    height:310px;
+    border: 5px solid blue;
+   padding: 5px;
+    margin: 5px;
+ 
+    }
+    */
+    /*
+  #col3{
+    width: 20px;
+    height:310px;
+    border: 5px dashed purple;
+   padding: 5px;
+    margin: 5px;
+ 
+    }
+  
+  #row3{
+  width: 1150px;
+    border: 10px solid orange;
+    padding: 24px 24px 20px;
+    margin: 15px 15px 8px;
+  }
+  */
+  input, label{
+    margin: 2px 0px 0px 10px;
+    padding: 2px 0px 0px 10px;
+  }
+  #n{
+    padding: 2px 0px 0px 10px;
+  margin: 2px 0px 0px 50px;
+  }
+  #e{
+    padding: 2px 0px 0px 10px;
+  margin: 2px 0px 0px 50px;
+  
+  }
+  #c{
+     padding: 2px 0px 0px 10px;
+  margin: 2px 0px 0px 15px;
+ 
+  }
+  #a{
+     padding: 2px 0px 0px 10px;
+  margin: 2px 0px 0px 41px;
+  }
+  #t{
+     padding: 2px 0px 0px 10px;
+  margin: 2px 0px 0px 65px;
+  
+  }
+  #submit{
+       padding: 2px 39px 0px;
+  margin: 2px 0px 0px 113px;
+
+  
+  }
+  /*
+  American-silver:#CFCFCF
+  American-purple:#431C53
+  AO(English):#008000
+  
+  */
+  a:hover{
+  background-color:#333399;
+  color:#CFCFCF;
+  }
+  a{
+  color:#A41313;
+  text-decoration:none;
+ background-color:#0093AF ; 
+  border-radius:100px;
+border:2px solid red;
+padding:40px;
+
+  }
+  span{
+  width:0px;
+  height:0px;
+  }
+  
+  
+.expendable {  
+background: #fff;  
+overflow: hidden;  
+color: #000;     
+transition: all .5s linear;  
+height: 0px; 
+border-radius:25px;
+border:2px solid red;
+width:0px;
+visibility:hidden;
+z-index:2;
+}  
+.expendable:target { 
+visibility:visible;
+ height: 450px;
+ background: yellow;  
+z-index:2;
+width:1035px;
+ -webkit-transition: width 2s, height 2s; /* Safari */
+    transition: width 2s, height 2s;
+
+
+ }
+ 
+ 
+ .projectsGallery{
+ 
+ width:340px;
+ height:150px;
+background-color:green ; 
+  border-radius:20px;
+border:2px solid orange;
+/*margin:0px 80px 0px 80px;*/
+ }
